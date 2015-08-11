@@ -15,6 +15,12 @@ Photo Page
 	Organize by date and event
 	Thumbnail style?
 
+Photo Database
+	photoID		  - Primary Key
+	photoname	  - Name of image
+	photodesc     - Description of image
+	photoalt      - Alternate text for each image
+
 Login Page
 	Post Login Credentials to asp
 	Return or deny login authentication and open/deny videos and communications pages
@@ -30,7 +36,7 @@ Communications
 	CRUD framework for user posting
 	
 Communications Database
-	postID 			  - Primary Key
+	postID 		  - Primary Key
 	userID		  - Foreign Key Used for authentication of posts and authentication of updating and deleting posts 
 	postsubject   - Plain Text to be read by the communications page
 	postcontent   - Plain Text to be read by the communications page

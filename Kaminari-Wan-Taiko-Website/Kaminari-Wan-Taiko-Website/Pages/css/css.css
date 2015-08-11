@@ -13,13 +13,13 @@ font-size: 18px;
 color:#FFF;
 }
 
-.contentdesc {
+.desc {
+text-align: center;
+font-weight: normal;
+width: 120px;
+margin: 5px;
 font-size: 18px;
 color:#FFF;
-}
-
-.contentpicture {
-
 }
 
 h1 {

@@ -66,6 +66,7 @@
     <Content Include="Pages\css\css.css" />
     <Content Include="Pages\Homepage.html" />
     <Content Include="Pages\About.html" />
+    <Content Include="Pages\imagegallary.html" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Photos.html" />
     <Content Include="Pages\Notes.txt" />
