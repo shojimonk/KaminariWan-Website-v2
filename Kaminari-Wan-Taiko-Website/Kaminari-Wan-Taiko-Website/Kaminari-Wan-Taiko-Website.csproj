@@ -72,7 +72,7 @@
     <Content Include="Pages\Photos.html" />
     <Content Include="Pages\Notes.txt" />
     <Content Include="Pages\assets\Busker.jpg" />
-    <Content Include="Pages\Videos.html" />
+    <Content Include="Pages\MemberResources.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
