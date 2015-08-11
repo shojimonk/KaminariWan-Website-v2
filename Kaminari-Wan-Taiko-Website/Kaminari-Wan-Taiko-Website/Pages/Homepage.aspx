@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="Kaminari_Wan_Taiko_Website.Pages.Homepage" %>
+
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset = "utf-8"> 
@@ -22,23 +24,23 @@
         <table>
             <tr>
                 <td>
-                    <a href="Homepage.html">Home</a>
+                    <a href="Homepage.aspx">Home</a>
                 </td>
                 <td>
-                    <a href="About.html">About Us</a>
+                    <a href="About.aspx">About Us</a>
                 </td>
                 <td>
-                    <a href="Photos.html">Photos</a>
+                    <a href="Photos.aspx">Photos</a>
                 </td>
                 <td>
-                    <a href="Login.html">Login</a>
+                    <a href="Login.aspx">Login</a>
                 </td>
                 <td>
-                    <a href="MemberResources.html">Member Resources</a>
+                    <a href="MemberResources.aspx">Member Resources</a>
                 </td>
                 <td>
-                    <a href="Communications.html">Communications</a> <br>
-                    <a class="sublink" href="CreatePost.html">Create A New Post</a>
+                    <a href="Communications.aspx">Communications</a> <br>
+                    <a class="sublink" href="CreatePost.aspx">Create A New Post</a>
                 </td>
             </tr>
         </table>
