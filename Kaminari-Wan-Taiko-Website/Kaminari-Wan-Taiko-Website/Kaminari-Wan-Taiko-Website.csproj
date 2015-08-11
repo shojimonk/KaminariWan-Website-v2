@@ -68,6 +68,7 @@
     <Content Include="Pages\About.html" />
     <Content Include="Pages\imagegallary.html" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Photos.aspx" />
     <Content Include="Pages\Photos.html" />
     <Content Include="Pages\Notes.txt" />
     <Content Include="Pages\assets\Busker.jpg" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Photos.aspx.cs">
+      <DependentUpon>Photos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Photos.aspx.designer.cs">
+      <DependentUpon>Photos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
