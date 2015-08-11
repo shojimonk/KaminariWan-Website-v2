@@ -40,8 +40,9 @@ Communications Database
 CreatePost
 	Submitting data to asp to write to a database with a CRUD framework
 	
-Videos
-	Some videos public for anyone to see? (Public Portfolio, Filmed Quality Kita No Arashi)
+Member Resources (Previously Videos)
+	Links for Videos 
+	Sheet Music
 	Upload all videos to YouTube
 	Gather links for all videos
 	
