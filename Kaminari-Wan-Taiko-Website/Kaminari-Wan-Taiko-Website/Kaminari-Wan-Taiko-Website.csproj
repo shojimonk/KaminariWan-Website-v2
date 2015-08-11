@@ -61,27 +61,61 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\Communications.html" />
-    <Content Include="Pages\CreatePost.html" />
+    <Content Include="Pages\Communications.aspx" />
+    <Content Include="Pages\CreatePost.aspx" />
     <Content Include="Pages\css\css.css" />
-    <Content Include="Pages\Homepage.html" />
-    <Content Include="Pages\About.html" />
+    <Content Include="Pages\Homepage.aspx" />
     <Content Include="Pages\imagegallary.html" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\MemberResources.aspx" />
     <Content Include="Pages\Photos.aspx" />
-    <Content Include="Pages\Photos.html" />
     <Content Include="Pages\Notes.txt" />
     <Content Include="Pages\assets\Busker.jpg" />
-    <Content Include="Pages\MemberResources.html" />
+    <Content Include="Pages\About.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Communications.aspx.cs">
+      <DependentUpon>Communications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Communications.aspx.designer.cs">
+      <DependentUpon>Communications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreatePost.aspx.cs">
+      <DependentUpon>CreatePost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CreatePost.aspx.designer.cs">
+      <DependentUpon>CreatePost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MemberResources.aspx.cs">
+      <DependentUpon>MemberResources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MemberResources.aspx.designer.cs">
+      <DependentUpon>MemberResources.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Photos.aspx.cs">
       <DependentUpon>Photos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Photos.aspx.designer.cs">
       <DependentUpon>Photos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
