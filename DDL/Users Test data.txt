@@ -1,0 +1,6 @@
+
+insert into Users(name, pass) values 
+	('Billy', 'hahaha234'), 
+	('Robyn', 'YOU ARE DUMB'),
+	('Tammy', 'IAMTHEBEST'),
+	('Christian','emunisa');

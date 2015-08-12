@@ -1,0 +1,27 @@
+
+--! 
+
+drop database if exists "KaminariWan.Website";
+
+create database "KaminariWan.Website";
+
+drop role if exists "JoJoMain";
+create role "JoJoMain" login superuser;
+comment on role "JoJoMain" is 'Personal developer superuser';
+
+grant connect on database "KaminariWan.Website" to "DefaultAppPool";
+
+\connect KaminariWan.Website
+
+drop table if exists Users cascade;
+
+create table Users(
+	id serial primary key,
+	name text not null check(length(name) > 0),
+	pass text not null check(length(pass) > 0)
+	);
+comment on table Users is 'A list of all users authorized to view protected data.';
+comment on column Users.name is 'the user name';
+comment on column Users.pass is 'the md5 hash password';
+
+grant select, insert, update, delete on table Users to "DefaultAppPool";
