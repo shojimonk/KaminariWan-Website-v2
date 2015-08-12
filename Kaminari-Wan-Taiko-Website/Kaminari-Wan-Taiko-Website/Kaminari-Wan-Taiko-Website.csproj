@@ -70,7 +70,6 @@
     <Content Include="Pages\CreatePost.aspx" />
     <Content Include="Pages\css\css.css" />
     <Content Include="Pages\Homepage.aspx" />
-    <Content Include="Pages\imagegallary.html" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\MemberResources.aspx" />
     <Content Include="Pages\Photos.aspx" />
