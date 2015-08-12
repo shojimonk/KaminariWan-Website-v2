@@ -94,10 +94,10 @@
        Response.Write(string.Format("<a target=\"_blank\" href=\"assets/{0}\">", photo.Name));
             Response.Write(string.Format("<img src=\"assets/{0}\" alt=\"{1}\">", photo.Name, photo.Alt));
             Response.Write("</a>");
-       Response.Write(string.Format("<div class=\"desc\">{0}</div>", photo.Descript));
+       Response.Write(string.Format("<div class=\"photodesc\"><p>{0}</p></div>", photo.Descript));
        Response.Write("</div>");
     }
-         * */
+         */
 
     %>
 
