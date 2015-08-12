@@ -18,7 +18,7 @@
 			Thunder Bay's Only Taiko Group
 		</p>
 	</div>
-
+    
     <!--Main Navigation Panel-->
     <div class="box" id="navi">
         <table>
@@ -50,15 +50,6 @@
 	<div class="box">
 	<h1>Homepage</h1>
 	</div>
-<!--Content Panel-->
-	
-
-    <div class="img">
-        <a target="_blank" href="assets/Busker.jpg">
-            <img src="assets/Busker.jpg" alt="Busker's Festival (Summer of 2015)'" width="256" height="192">
-        </a>
-        <div class="photodesc">Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</div>
-    </div>
 
 
 </body>

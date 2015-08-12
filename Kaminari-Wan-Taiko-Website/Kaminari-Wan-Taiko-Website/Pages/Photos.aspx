@@ -48,6 +48,43 @@
     <div class="box">
         <h1>Photos</h1>
     </div>
+    <br />
+
+    <div class="img">
+        <a target="_blank" href="assets/Busker.jpg">
+            <img src="assets/Busker.jpg" alt="Busker's Festival (Summer of 2015)'">
+        </a>
+        <div class="photodesc"><p>Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</p></div>
+    </div>
+
+     <div class="img">
+        <a target="_blank" href="assets/CanadaDay1.jpg">
+            <img src="assets/CanadaDay1.jpg" alt="Busker's Festival (Summer of 2015)'">
+        </a>
+        <div class="photodesc"><p>Kaminari Wan Taiko's </p></div>
+    </div>
+
+     <div class="img">
+        <a target="_blank" href="assets/CanadaDay2.jpg">
+            <img src="assets/CanadaDay2.jpg" alt="Busker's Festival (Summer of 2015)'">
+        </a>
+        <div class="photodesc"><p>Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</p></div>
+    </div>
+
+     <div class="img">
+        <a target="_blank" href="assets/Japan1.jpg">
+            <img src="assets/Japan1.jpg" alt="Busker's Festival (Summer of 2015)'">
+        </a>
+        <div class="photodesc"><p>Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</p></div>
+    </div>
+
+     <div class="img">
+        <a target="_blank" href="assets/Japan2.jpg">
+            <img src="assets/Japan2.jpg" alt="Busker's Festival (Summer of 2015)'">
+        </a>
+        <div class="photodesc"><p>Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</p></div>
+    </div>
+
 
     <%
         /*
@@ -55,7 +92,7 @@
     {
        Response.Write("<div class=\"img\">");
        Response.Write(string.Format("<a target=\"_blank\" href=\"assets/{0}\">", photo.Name));
-            Response.Write(string.Format("<img src=\"assets/{0}\" alt=\"{1}\" width=\"whatever\" height=\"whatever\">", photo.Name, photo.Alt));
+            Response.Write(string.Format("<img src=\"assets/{0}\" alt=\"{1}\">", photo.Name, photo.Alt));
             Response.Write("</a>");
        Response.Write(string.Format("<div class=\"desc\">{0}</div>", photo.Descript));
        Response.Write("</div>");
