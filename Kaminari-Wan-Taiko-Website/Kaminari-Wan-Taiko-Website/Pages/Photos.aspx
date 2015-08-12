@@ -22,23 +22,23 @@
         <table>
             <tr>
                 <td>
-                    <a href="Homepage.html">Home</a>
+                    <a href="Homepage.aspx">Home</a>
                 </td>
                 <td>
-                    <a href="About.html">About Us</a>
+                    <a href="About.aspx">About Us</a>
                 </td>
                 <td>
-                    <a href="Photos.html">Photos</a>
+                    <a href="Photos.aspx">Photos</a>
                 </td>
                 <td>
-                    <a href="Login.html">Login</a>
+                    <a href="Login.aspx">Login</a>
                 </td>
                 <td>
-                    <a href="Videos.html">Member Resources</a>
+                    <a href="MemberResources.aspx">Member Resources</a>
                 </td>
                 <td>
-                    <a href="Communications.html">Communications</a> <br>
-                    <a class="sublink" href="CreatePost.html">Create A New Post</a>
+                    <a href="Communications.aspx">Communications</a> <br>
+                    <a class="sublink" href="CreatePost.aspx">Create A New Post</a>
                 </td>
             </tr>
         </table>
@@ -50,6 +50,7 @@
     </div>
 
     <%
+        /*
     foreach(string photo in PhotoStruct)
     {
        Response.Write("<div class=\"img\">");
@@ -59,6 +60,7 @@
        Response.Write(string.Format("<div class=\"desc\">{0}</div>", photo.Descript));
        Response.Write("</div>");
     }
+         * */
 
     %>
 
