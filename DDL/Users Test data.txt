@@ -1,6 +1,9 @@
+truncate Users cascade;
+
+--! Billy - hahaha234; Robyn - YOU ARE DUMB; Tammy - IAMTHEBEST; Christian - emunisa
 
 insert into Users(name, pass) values 
-	('Billy', 'hahaha234'), 
-	('Robyn', 'YOU ARE DUMB'),
-	('Tammy', 'IAMTHEBEST'),
-	('Christian','emunisa');
+	('Billy', '4d7820e57f58e879b8ff72c2458a19d5'), 
+	('Robyn', '92cef3cc16dc0f1a99b0a77a86457d8e'),
+	('Tammy', 'b4dd24355563a1e638e9042463c54cb4'),
+	('Christian','1f5f8c9e652d2943e34897a3319ed391');

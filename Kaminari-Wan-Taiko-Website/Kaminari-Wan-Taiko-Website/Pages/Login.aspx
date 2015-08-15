@@ -75,15 +75,15 @@
 
     <!--Login Area-->
     <div id="loginpane">
-        <form action="Login.aspx" method="POST" target="_self" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+        <form action="Login.aspx?Log=TRUE" method="POST" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off">
             <fieldset>
                 <legend>Login Information</legend>
                 Username:<br>
-                <input type="text" name="username"><br>
+                <input type="text" name="username" /><br>
                 Password:<br>
-                <input type="password" name="password"><br>
+                <input type="password" name="password" /><br>
                 <br>
-                <input type="submit" formaction="Login.aspx?Log=TRUE" value="Login">
+                <input type="submit" value="Login" />
             </fieldset>
         </form>
     </div>

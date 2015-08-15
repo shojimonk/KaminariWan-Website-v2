@@ -54,7 +54,7 @@ namespace Kaminari_Wan_Taiko_Website.App_Code
             {
                 Host = "127.0.0.1",
                 Port = 5432,
-                Database = "DATABASE_NAME_HERE",
+                Database = "KaminariWan.Website",
                 IntegratedSecurity = true
             };
 
