@@ -25,3 +25,13 @@ comment on column Users.name is 'the user name';
 comment on column Users.pass is 'the md5 hash password';
 
 grant select, insert, update, delete on table Users to "DefaultAppPool";
+
+drop table if exists Pictures cascade;
+create table Pictures(
+	id serial primary key,
+	name text not null check(length(name) > 0),
+	description text not null check(length(description) > 0)
+	);
+comment on table Pictures is 'A table for all photos being stored for the photos.aspx page.';
+comment on column Pictures.name is 'the filename of the photo, including extension.';
+comment on column Pictures.description is 'a short description of the photo which will display below the photo.';
