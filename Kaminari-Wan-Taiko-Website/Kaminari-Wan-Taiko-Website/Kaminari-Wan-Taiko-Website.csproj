@@ -79,9 +79,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\LoginClass.cs" />
+    <Content Include="App_Code\KaminariDB.cs" />
     <Content Include="App_Code\Users.cs" />
     <Content Include="App_Code\Hasher.cs" />
+    <Content Include="App_Code\PhotoStruct.cs" />
     <Compile Include="Pages\Communications.aspx.cs">
       <DependentUpon>Communications.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

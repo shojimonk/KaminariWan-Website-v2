@@ -49,7 +49,7 @@
         <h1>Photos</h1>
     </div>
     <br />
-
+    <!--
     <div class="img">
         <a target="_blank" href="assets/Busker.jpg">
             <img src="assets/Busker.jpg" alt="Busker's Festival (Summer of 2015)'">
@@ -84,20 +84,21 @@
         </a>
         <div class="photodesc"><p>Kaminari Wan Taiko's performance at the 2015 Busker's Festival, July 25th, 2015</p></div>
     </div>
+    -->
 
 
     <%
-        /*
-    foreach(string photo in PhotoStruct)
-    {
-       Response.Write("<div class=\"img\">");
-       Response.Write(string.Format("<a target=\"_blank\" href=\"assets/{0}\">", photo.Name));
+        List<Kaminari_Wan_Taiko_Website.App_Code.PhotoStruct> photos = Kaminari_Wan_Taiko_Website.App_Code.KaminariDB.GetPictures();
+
+        foreach (Kaminari_Wan_Taiko_Website.App_Code.PhotoStruct photo in photos)
+        {
+            Response.Write("<div class=\"img\">");
+            Response.Write(string.Format("<a target=\"_blank\" href=\"assets/{0}\">", photo.Name));
             Response.Write(string.Format("<img src=\"assets/{0}\" alt=\"{1}\">", photo.Name, photo.Alt));
             Response.Write("</a>");
-       Response.Write(string.Format("<div class=\"photodesc\"><p>{0}</p></div>", photo.Descript));
-       Response.Write("</div>");
-    }
-         */
+            Response.Write(string.Format("<div class=\"photodesc\"><p>{0}</p></div>", photo.Descript));
+            Response.Write("</div>");
+        }
 
     %>
 

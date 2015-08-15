@@ -1,12 +1,12 @@
 truncate Pictures cascade;
 
-insert into Pictures(name, description) values 
-	('taiko picture 1.jpg', 'Kaminari Wan Taiko performing in Seto, Japan alongside Tenkuu Taiko for Tenkuus 15th anniversary performance. May 2014.'), 
-	('taiko picture 2.jpg', 'Kaminari Wan Taiko performing in Seto, Japan alongside Tenkuu Taiko for Tenkuus 15th anniversary performance. May 2014.'),
-	('taiko picture 3.jpg', 'Kaminari Wan Taiko members in Japan posing alongside our benefactor, Hirose Takafumi. May 2014.'),
-	('Busker.jpg','Performing at Thunder Bays 3rd annual Buskers festival. July 2015.'),
-	('CanadaDay1.jpg','Performing at Thunder Bays Canada Day celebrations. July 2015.'),
-	('CanadaDay2.jpg','Performing at Thunder Bays Canada Day celebrations. July 2015.'),
-	('Japan1.jpg','Performing in Seto, Japan, at Tenkuu Taikos 15th anniversary performance. May 2014.'),
-	('Japan2.jpg','Performing in Gifu, Japan, Thunder Bays sister city. May 2014.');
+insert into Pictures(name, description, alt) values 
+	('taiko picture 1.jpg', 'Kaminari Wan Taiko performing in Seto, Japan alongside Tenkuu Taiko for Tenkuus 15th anniversary performance. May 2014.', 'Y NO PIC HERE??'), 
+	('taiko picture 2.jpg', 'Kaminari Wan Taiko performing in Seto, Japan alongside Tenkuu Taiko for Tenkuus 15th anniversary performance. May 2014.', 'Y NO PIC HERE??'),
+	('taiko picture 3.jpg', 'Kaminari Wan Taiko members in Japan posing alongside our benefactor, Hirose Takafumi. May 2014.', 'Y NO PIC HERE??'),
+	('Busker.jpg','Performing at Thunder Bays 3rd annual Buskers festival. July 2015.', 'Y NO PIC HERE??'),
+	('CanadaDay1.jpg','Performing at Thunder Bays Canada Day celebrations. July 2015.', 'Y NO PIC HERE??'),
+	('CanadaDay2.jpg','Performing at Thunder Bays Canada Day celebrations. July 2015.', 'Y NO PIC HERE??'),
+	('Japan1.jpg','Performing in Seto, Japan, at Tenkuu Taikos 15th anniversary performance. May 2014.', 'Y NO PIC HERE??'),
+	('Japan2.jpg','Performing in Gifu, Japan, Thunder Bays sister city. May 2014.', 'Y NO PIC HERE??');
 	

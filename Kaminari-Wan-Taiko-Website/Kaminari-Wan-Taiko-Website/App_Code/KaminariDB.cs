@@ -8,7 +8,7 @@ namespace Kaminari_Wan_Taiko_Website.App_Code
     // using System.Web;
 
     
-    public class LoginClass
+    public class KaminariDB
     {
         /// <summary>
         /// This method reads users from database, looks for username match and checks
@@ -42,6 +42,33 @@ namespace Kaminari_Wan_Taiko_Website.App_Code
                 }
             }
             return false;
+        }
+
+        /// <summary>
+        /// This method reads photo names and decriptions from the KaminariWan.Website
+        /// database for dynamically populating the photos.aspx page.
+        /// </summary>
+        /// <returns> List of structure PhotoStruct, containing photo names and descriptions. </returns>
+        public static List<PhotoStruct> GetPictures()
+        {
+            
+            using (NpgsqlConnection conn = Connect())
+            {
+                conn.Open();
+                NpgsqlCommand command = new NpgsqlCommand("select id, name, description, alt from pictures order by id ASC;", conn);
+                NpgsqlDataReader table = command.ExecuteReader();
+                List<PhotoStruct> photos = new List<PhotoStruct>();
+                foreach (IDataRecord row in table)
+                {
+                    PhotoStruct currentPhoto = new PhotoStruct();
+                    currentPhoto.ID = (int)row["id"];
+                    currentPhoto.Name = (string)row["name"];
+                    currentPhoto.Descript = (string)row["description"];
+                    currentPhoto.Alt = (string)row["alt"];
+                    photos.Add(currentPhoto);
+                }
+                return photos;
+            }
         }
 
         /// <summary>

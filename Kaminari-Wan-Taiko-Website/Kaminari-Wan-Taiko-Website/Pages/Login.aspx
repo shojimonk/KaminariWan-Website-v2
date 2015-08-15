@@ -19,7 +19,7 @@
                 string inPass = Request.Form["password"];
                 bool successful = false;
                 string hashPass = Kaminari_Wan_Taiko_Website.App_Code.Hasher.HashThis(inPass);
-                successful = Kaminari_Wan_Taiko_Website.App_Code.LoginClass.Verify(Request.Form["username"], hashPass);
+                successful = Kaminari_Wan_Taiko_Website.App_Code.KaminariDB.Verify(Request.Form["username"], hashPass);
                 if (successful)
                 {
                     Response.BufferOutput = true;
