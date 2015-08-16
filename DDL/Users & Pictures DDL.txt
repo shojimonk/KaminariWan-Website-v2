@@ -1,6 +1,3 @@
-
---! 
-
 drop database if exists "KaminariWan.Website";
 
 create database "KaminariWan.Website";
@@ -8,6 +5,10 @@ create database "KaminariWan.Website";
 drop role if exists "JoJoMain";
 create role "JoJoMain" login superuser;
 comment on role "JoJoMain" is 'Personal developer superuser';
+
+drop role if exists "Christian Leisander";
+create role "Christian Leisander" login superuser;
+comment on role "Christian Leisander" is 'Personal developer superuser';
 
 grant connect on database "KaminariWan.Website" to "DefaultAppPool";
 
